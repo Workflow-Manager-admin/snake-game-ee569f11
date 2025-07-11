@@ -1,13 +1,16 @@
 /* CSS Variables for Theme Management */
 :root {
-  /* Light theme colors */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8f9fa;
-  --text-primary: #282c34;
-  --text-secondary: #61dafb;
-  --border-color: #e9ecef;
-  --button-bg: #007bff;
-  --button-text: #ffffff;
+  /* Light theme colors — project-specific */
+  --primary: #2ecc40;
+  --accent: #ff4136;
+  --secondary: #ffdc00;
+  --bg-primary: #fff;
+  --bg-secondary: #f6f7fa;
+  --text-primary: #222;
+  --text-secondary: #6a7a84;
+  --border-color: #ededed;
+  --button-bg: var(--primary);
+  --button-text: #fff;
 }
 
 [data-theme="dark"] {
